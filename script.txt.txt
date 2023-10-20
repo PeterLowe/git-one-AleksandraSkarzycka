@@ -1,0 +1,4 @@
+Git Guide – Aleksandra Skarzycka
+Git init + remote
+Git init initializes a repository in a chosen directory, git remote adds an upstream repository 
+   
