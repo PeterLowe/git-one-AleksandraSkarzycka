@@ -1,16 +1,37 @@
 Git Guide – Aleksandra Skarzycka
-Git init + remote
-Git init initializes a repository in a chosen directory, git remote adds an upstream repository 
+Git init
+Git init initializes a repository in a chosen directory. 
    
- 
+ 
+ 
 Git status + add
-Status shows the files in the branch that are “dirty” or clean, add adds them to the branch which will let them be included in the next commit
+Status shows the files in the branch that are “dirty” or clean, add adds them to the branch which will let them be included in the next commit.
  
- 
+ 
+ 
 Git commit
-Commit creates a snapshot of the staged changes made, saves your changes to a local repository
+Commit creates a snapshot of the staged changes made, saves your changes to a local repository.
+ 
+ 
+ 
+Git remote
+Lets you view the remote repositories in a list with a URL
+ 
+ 
+ 
+Git push
+Push allows you to upload your local repository changes to a remote repository.
+ 
+ 
+ 
+Git branch
+Branches are used to keep different features being developed organized and separate.
+ 
+ 
  
  
-Git remote
-Lets you view the repositories in a list with a URL
+Git checkout
+Checkout lets you switch between different branches or commit states.
  
+ 
+
