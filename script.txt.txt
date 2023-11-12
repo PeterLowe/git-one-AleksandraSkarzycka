@@ -28,4 +28,9 @@ Git remote
 Git remote lets you create, view, and delete connections to other repositories, accompanied by their URL. Remote connections are like bookmarks rather than direct links that let you access different repositories.
 Syntax: git remote -v (this lists the repositories).
  
+ 
+Git branch
+Branches are used to list, create, delete, and manage branches in a git repository. Separate lines to work on different features.
+Syntax: git branch <branch_name> (creates branches), git branch (lists all branches)
+ 
 
