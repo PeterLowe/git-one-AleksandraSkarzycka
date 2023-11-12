@@ -43,3 +43,8 @@ Git log
 Displays the history of commits in a repository. The most recent commits show up first and it goes down the list with later ones. This command lists each commit with its SHA-1 checksum, the author's name and email, the date written, and the commit message.
 Syntax: git log
  
+ 
+Git push
+Git push allows you to upload your local repository changes to a remote repository. Allows you to share your work with the people you are collaborating with.
+Syntax: git push -u origin master
+
