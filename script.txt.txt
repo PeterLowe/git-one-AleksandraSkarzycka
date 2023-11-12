@@ -7,3 +7,7 @@ Syntax: git init
  
 (This would be a hidden folder but if this shows up you know it worked)
 
+Git status
+Status displays information about the current state of the working directory and git repository. Shows which files have been modified and which ones are ready to be commit.
+Syntax: git status
+
