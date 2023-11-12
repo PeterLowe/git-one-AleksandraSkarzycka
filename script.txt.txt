@@ -50,5 +50,10 @@ Syntax: git push -u origin master
   
 Git stash
 Lets you temporarily save your changes in your working directory that you don’t want to commit yet. You use the command git stash and it saves it for you, use git stash list to see all the stashed saves.
+<<<<<<< Updated upstream
 Syntax: git stash, git stash list
+ 
+=======
+Syntax: git stash (saves changes), git stash list (lists stashes)
+>>>>>>> Stashed changes
 
