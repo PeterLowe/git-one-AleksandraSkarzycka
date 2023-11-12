@@ -37,4 +37,9 @@ Syntax: git branch <branch_name> (creates branches), git branch (lists all branc
 Git checkout
 Git checkout lets you navigate between branches created using git branch. Must commit your changes before you move between branches.
 Syntax: git checkout <branch_name>
-
+ 
+ 
+Git log
+Displays the history of commits in a repository. The most recent commits show up first and it goes down the list with later ones. This command lists each commit with its SHA-1 checksum, the author's name and email, the date written, and the commit message.
+Syntax: git log
+ 
