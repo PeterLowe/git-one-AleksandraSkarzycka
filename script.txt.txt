@@ -6,8 +6,15 @@ Syntax: git init
  
  
 (This would be a hidden folder but if this shows up you know it worked)
-
+ 
 Git status
 Status displays information about the current state of the working directory and git repository. Shows which files have been modified and which ones are ready to be commit.
 Syntax: git status
+ 
 
+ 
+Git add
+Git add command is used to add any staged changes in the working directory to be added into the next commit point.
+Syntax: git add <filenamehere>
+ 
+When you check the status again it should show the changes to be committed.
