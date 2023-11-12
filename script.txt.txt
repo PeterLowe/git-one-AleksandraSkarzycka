@@ -47,4 +47,8 @@ Syntax: git log
 Git push
 Git push allows you to upload your local repository changes to a remote repository. Allows you to share your work with the people you are collaborating with.
 Syntax: git push -u origin master
+  
+Git stash
+Lets you temporarily save your changes in your working directory that you don’t want to commit yet. You use the command git stash and it saves it for you, use git stash list to see all the stashed saves.
+Syntax: git stash, git stash list
 
