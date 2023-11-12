@@ -1,0 +1,54 @@
+Git Guide – Aleksandra Skarzycka
+Git init
+Git init creates a new empty repository in a chosen directory, or initialize an existing directory as a git repository. When you run it, it sets up git’s infrastructure and data structures to keep track of changes.
+Syntax: git init
+   
+ 
+ 
+Git status + add
+Status displays information about the current state of the working directory and git repository. Shows which files have been modified and which ones are ready to be commit.
+Add is used to stage changes in the directory for the next commit.
+Syntax: git status, git add .
+ 
+ 
+ 
+Git commit
+Commit creates a snapshot of the staged changes made, saves your changes to a local repository.
+Syntax: git commit -m “your message here”
+ 
+ 
+ 
+Git remote
+Lets you view the remote repositories in a list with a URL. It is a copy of a git’s repository hosted on a different server, making it easy for people to collaborate.
+Syntax: git remote -v
+ 
+ 
+ 
+Git push
+Push allows you to upload your local repository changes to a remote repository. Allows you to share your work with the people you are collaborating with.
+Syntax: git push -u origin master
+ 
+ 
+ 
+Git branch
+Branches are used to list, create, delete, and manage branches in a git repository. Separate lines to work on different features.
+Syntax: git branch
+ 
+ 
+ 
+ 
+Git checkout
+Checkout lets you switch between different branches or commit states.
+Syntax: git checkout <branch_name>
+ 
+ 
+Git log
+Displays the history of commits in a repository.
+Syntax: git log
+ 
+ 
+Git stash
+Lets you temporarily save your changes in your working directory that you don’t want to commit yet.
+You use the command git stash and it saves it for you, use git stash list to see all the stashed saves.
+Syntax: git stash
+ 
