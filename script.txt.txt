@@ -18,3 +18,8 @@ Git add command is used to add any staged changes in the working directory to be
 Syntax: git add <filenamehere>
  
 When you check the status again it should show the changes to be committed.
+ 
+Git commit
+Git commit creates a snapshot of the staged changes made, saves your changes to a local repository. You must specifically tell git which files you want to include before you commit, or else it won’t save them.
+
+
