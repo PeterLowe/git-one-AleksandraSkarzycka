@@ -33,4 +33,8 @@ Git branch
 Branches are used to list, create, delete, and manage branches in a git repository. Separate lines to work on different features.
 Syntax: git branch <branch_name> (creates branches), git branch (lists all branches)
  
+ 
+Git checkout
+Git checkout lets you navigate between branches created using git branch. Must commit your changes before you move between branches.
+Syntax: git checkout <branch_name>
 
